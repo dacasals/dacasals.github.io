@@ -1,0 +1,29 @@
+{% assign sidebar = site.data.data.sidebar %}
+
+{% if sidebar %}
+<section class="section headbar-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-user fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ sidebar.title }}
+  </h2>
+  <div>
+    {% if sidebar.name %}
+    <h3 class="name">{{ sidebar.name }}</h1>
+    {% endif %}
+
+    {% if sidebar.tagline %}
+    <h5 class="tagline">{{ sidebar.tagline }}</h3>
+    {% endif %}
+    
+    {% include cv2/contact-line.html %}
+  
+    
+
+  </div>
+    
+</section>
+{% endif %}

@@ -1,0 +1,361 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    title: Contact Info
+    position: left # position of the sidebar : left or right
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Daniel Arturo Casals Amat
+    tagline: Master in Computer Science | Machine Learning Engineer  | Software Engineer
+    avatar: prof_pic.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    social:
+      email: dcasalsamat@gmail.com
+      phone: +56 933394925
+      timezone: Valparaíso, Chile
+      # citizenship: 
+      website: dacasals.github.io #do not add http://
+      linkedin: dacasals
+      # xing: alandoe
+      github: dacasals
+      telegram:  #dcasalsamat add your nickname without '@' sign
+      gitlab:
+      bitbucket:
+      twitter:
+      stack-overflow: # Number/Username, e.g. 123456/alandoe
+      codewars:
+      goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf:
+
+    languages:
+      title: Languages
+      info:
+        - idiom: English
+          level: C1
+
+        - idiom: Spanish
+          level: Native
+
+    # interests:
+    #   title: Interests
+    #   info:
+    #     - item: Climbing
+    #       link:
+
+    #     - item: Snowboarding
+    #       link:
+
+    #     - item: Cooking
+    #       link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      I'm a Machine Learning Engineer with a solid foundation in computer science. 
+      Throughout my career, I've held roles in recognized companies like Uber and 
+      Cornershop By Uber, where I've honed my skills in improving shopping experiences 
+      through Recommendation Systems, utilizing advanced models like LLM and deep
+       learning algorithms. My expertise extends to developing scalable API solutions,
+        supporting ML end-to-end pipelines, and enhancing MLOps stack tools. 
+        I excel in integrating and operationalizing machine learning models.
+education:
+    title: Education
+    info:
+      - degree: MSc in Computer Science
+        university: Universidad Técnica Federico Santa María
+        time: 2018 - 03/2021
+        details: |
+          He completed the Master program "Magister en Ciencias de la Ingeniería
+          Informática". He has specialized in the area of Machine Learning applied to the
+          prediction of performance in Sparql queries.
+            - Worked as a student since 2019 linked to the [IMFD](https://imfd.cl/en/investigador/daniel-casals/).
+      - degree: Engineer in Computer Science
+        university: Universidad de las Ciencias Informáticas
+        time: 2009 - 2014
+        details:
+experiences:
+    title: Experiences
+    info:
+      - role: Machine Learning Engineer
+        time: 05/2023 - 12/2023
+        company: 'Uber, Chile'
+        details: |
+          - Improved shopping experience with Recommendation Systems solutions for the Uber New Verticals business.
+          - Using LLM and deep models to extract product tags and embeddings.
+          - Implemented end-to-end pipelines to classify millions of products.
+        tags: 
+          - SQL
+          - Spark
+          - Pipelines
+          - NLP
+          - Python
+          - Deep Learning
+
+      - role: Machine Learning Engineer
+        time: 03/2022 - 05/2023
+        company: 'Cornershop By Uber, Chile'
+        details: |
+          - As a Software Engineer/MLE, implementing scalable API solutions to sup-
+          port/serve ML models.
+          - Supporting ML End-to-end pipelines and improving our MLOps stack tools.
+        tags:
+        - Django
+        - Sanic
+        - API
+        - SQL
+        - Spark
+        - Pipelines
+        - Airflow
+        - Redis
+
+      - role: Software Engineer
+        time: 05/2021 - 03/2022
+        company: 'Cornershop By Uber, Chile'
+        details: |
+          - As a Software Engineer/MLE, implementing scalable API solutions to sup-
+          port/serve ML models.
+          - Supporting ML End-to-end pipelines and improving our MLOps stack tools.
+        tags:
+        - Django
+        - Sanic
+        - API
+        - SQL
+        - Spark
+        - Pipelines
+        - Airflow
+        - Redis
+
+      - role: Software Engineer
+        time: 2018
+        company: '[Bits Américas](https://bitsamericas.com), Cuba & Chile'
+        details: |
+          As a Drupal 8 developer and using AngularJS por the View layer, mainly
+          working on multi-sites solutions for the Colombian Telecommunications
+           Services Company(Tigo) and he collaborated in others.
+        tags:
+        - PHP7
+        - AngularJS
+        - Javascript
+        - Drupal8
+      - role: Software Engineer
+        time: 2016 - 2017
+        company: CEIGE at Universidad de las Ciencias Informáticas, Cuba
+        details: |
+          - Worked as full-stack engineer  developing a strategic and operational planning system for public entities widely used around the country(SIPAC 3.0).
+          A system developed using Django, Redis, ExtJS among other open-source tools.
+          - A also contribute with the configuration of CI/CD flows of the project, using Jenkins,
+           Docker, Gitlab.
+        tags:
+        - Architecture
+        - Docker
+        - Python3
+        - NodeJS
+        - Django
+        - ExtJS 6.2
+        - Jenkins
+
+      - role: Software Engineer / Project Leader
+        time: 2014 - 2016
+        company: CEIGE at Universidad de las Ciencias Informáticas, Cuba
+        details: |
+          - Project Leader and developer, in the development of a Reference Architec-
+          ture. Based on PHP and the Symfony, AngularJS.
+          - Author of components: ExceptionsBundle, TrazasBundle, IntegratorBundle
+          and NotificationsBundle) of the 12 that make the Base Architecture 
+          and between others contributions.
+        tags: 
+        - Architecture
+        - Symfony
+        - AngularJS
+        - PHP7
+        - Javascript
+
+certifications:
+      title: Courses & Certifications
+      list:
+        - name: Courses of Master program
+          start: 2018
+          end: 2021
+          organization: IT Department, UTFSM
+          credentialid: 
+          credentialurl: drive.google.com/file/d/1dGhTxW7o7RMWN3yBVdrSpH3FluYoFW8F/view
+          credentialname: Grade certificate
+          details: |
+            I've completed the following courses as part of the program:
+             - SOFTWARE ARCHITECTURE
+             - APPLIED PARALLEL PROGRAMMING
+             - SEMANTIC WEB
+             - LEARNING MACHINES
+             - CRYPTOCURRENCIES AND CONTRACTS
+             - ARTIFICIAL NEURAL NETWORKS
+             - TEXT MINING
+             - INVESTIGATION METHODOLOGY
+             - RESEARCH SEMINAR I
+             - RESEARCH SEMINAR II
+        - name: Deep Learning Specialization
+          start: 2020
+          end: 2020
+          organization: Coursera by DeepLearning.AI
+          credentialid: 
+          credentialurl: https://coursera.org/share/a432e3e7aee56a0ef3a963f16f143478
+          credentialname: Certificate
+          details: |
+            Course Certificates:
+            - Convolutional Neural Networks
+              - Taught by: Andrew Ng, Kian Katanforoosh & Younes Bensouda Mourri
+              - Completed date: August 11, 2020
+              - [certificate](https://www.coursera.org/account/accomplishments/certificate/JJSF75LSKUMH)
+              
+            - Neural Networks and Deep Learning
+              - Taught by: Andrew Ng, Kian Katanforoosh & Younes Bensouda Mourri
+              - Completed by: Daniel Casals Amat by August 3, 2020
+              - [certificate](https://www.coursera.org/account/accomplishments/certificate/RK4A4SY6J9XJ)
+            
+            - Structuring Machine Learning Projects
+              - Taught by: Andrew Ng, Younes Bensouda Mourri & Kian Katanforoosh
+              - Completed date: August 6, 2020
+              - [certificate](https://www.coursera.org/account/accomplishments/certificate/66BX7GFRXKR8)
+            
+            - Sequence Models
+              - Taught by: Andrew Ng, Kian Katanforoosh & Younes Bensouda Mourri
+              - Completed date: August 28, 2020
+              - [certificate](https://www.coursera.org/account/accomplishments/certificate/5Q7HJSU2R63A)
+            
+            - Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization
+              - Taught by: Andrew Ng, Kian Katanforoosh & Younes Bensouda Mourri.
+              - Completed date: August 5, 2020
+              - [certificate](https://www.coursera.org/account/accomplishments/certificate/866ZCRKHEESH)
+projects:
+    title: Projects
+    intro: >
+      You can list your side projects in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+oss:
+    title: OSS Contributions
+    intro: >
+      You can list your open source software contributions in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    contributions:
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+publications:
+    title: Publications
+    intro: |
+      You can list your publications in this section. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      bibendum fringilla a eu lectus.
+    papers:
+      - title: The Art of Computer Programming
+        link: "#"
+        authors: Donald E. Knuth
+        conference: Addison-Wesley, 1968
+
+      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+        link: "#"
+        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+      - title: A syntax directed compiler for Algol 60
+        link: "#"
+        authors: Edgar T. Irons
+        conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    title: Skills
+
+    general:
+     - Proficiency integrating and productionazing machine learning models
+     - Expertise developing and appling machine learning algorithms and models in real-world contexts.
+     - Expertise in data analysis and conducting A/B testing experiments.
+     - Proficiency in developing and maintaining machine learning pipelines
+     - Good collaboration and teamwork skills
+    topics:
+      - label: Data Science
+        skills: 
+          - name: SQL
+          - name: Pytorch
+          - name: Keras
+          - name: Pytorch
+          - name: Apache Airflow
+          - name: Streamlit
+          - name: PySpark
+          - name: Pandas
+          - name: Scikit-learn
+          - name: SciPy
+
+      - label: Backend
+        skills:
+          - name: Django
+          - name: FastApi
+          - name: REST
+          - name: Docker
+          - name: Git
+      - label: Cloud services
+        skills:
+          - name: AWS
+          - name: S3
+          - name: Sagemaker
+          - name: Glue
+          - name: Athena
+          - name: EMR
+          - name: GCP
+          - name: Google Cloud Run
+      
+      - label: Databases
+        skills:
+          - name: PostsgreSQL
+          - name: MySql
+          - name: Hive
+          - name: Apache Jena & Fuseki
+          - name: MongoDB
+          - name: Redis
+      - label: Programming Languages
+        skills:
+          - name: Python
+          - name: PHP
+          - name: Go
+          - name: Java
+          - name: JavaScript
+      - label: Languages
+        skills:
+          - name: Spanish (Native)
+          - name: "[English (C1)](https://www.poliglota.org/dashboard/certificates/80672)"
+footer: >

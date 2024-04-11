@@ -1,0 +1,156 @@
+<div class="contact-container container-block">
+  <div class="container">
+    <div class="row">
+      {% for field in  sidebar.social %}
+      {% if field[1] %}
+      <div class="col-sm-5 col-md-3">
+        <div class="item">
+          {% if field[0] == "email" %}
+          <div class="email"><i class="fas fa-envelope"></i>
+            <a href="mailto:{{ field[1] }}">{{ field[1] }}</a>
+          </div>
+          {% endif %}
+
+          {% if field[0] == "phone" %}
+          <div class="phone"><i class="fas fa-phone"></i>
+            <a href="tel:{{ field[1] }}">{{ field[1] }}</a>
+          </div>
+          {% endif %}
+
+          {% if field[0] == "citizenship" %}
+          <div class="phone"><i class="fas fa-passport"></i>
+            <a href="">{{ field[1] }}</a>
+          </div>
+          {% endif %}
+
+          {% if field[0] == "timezone" %}
+          <div class="timezone"><i class="fas fa-clock"></i>
+            <a href="">{{ field[1] }}</a>
+          </div>
+          {% endif %}
+
+          {% if field[0] == "telegram" %}
+          <div class="telegram"><i class="fab fa-telegram"></i>
+            <a href="https://t.me/{{ field[1] }}" target="_blank">{{ field[1] }}</a>
+          </div>
+          {% endif %}
+
+          {% if field[0] == "website" %}
+          <div class="website"><i class="fas fa-globe-americas"></i>
+            <a href="http://{{ field[1] }}" target="_blank">{{ field[1] }}</a>
+          </div>
+          {% endif %}
+
+          {% if field[0] == "linkedin" %}
+          <div class="linkedin"><i class="fab fa-linkedin"></i>
+            <a href="https://linkedin.com/in/{{ field[1] }}" target="_blank">{{ field[1] }}</a>
+          </div>
+          {% endif %}
+
+          {% if field[0] == "xing" %}
+          <div class="xing"><i class="fab fa-xing"></i>
+            <a href="https://www.xing.com/profile/{{ field[1] }}" target="_blank">{{ field[1] }}</a>
+          </div>
+          {% endif %}
+
+          {% if field[0] == "github" %}
+          <div class="github"><i class="fab fa-github"></i>
+            <a href="http://github.com/{{ field[1] }}" target="_blank">{{ field[1] }}</a>
+          </div>
+          {% endif %}
+
+          {% if field[0] == "gitlab" %}
+          <div class="gitlab"><i class="fab fa-gitlab"></i>
+            <a href="http://gitlab.com/{{ field[1] }}" target="_blank">{{ field[1] }}</a>
+          </div>
+          {% endif %}
+
+          {% if field[0] == "bitbucket" %}
+          <div class="bitbucket"><i class="fab fa-bitbucket"></i>
+            <a href="http://bitbucket.com/{{ field[1] }}" target="_blank">{{ field[1] }}</a>
+          </div>
+          {% endif %}
+
+          {% if field[0] == "twitter" %}
+          <div class="twitter"><i class="fab fa-twitter"></i>
+            <a href="https://twitter.com/{{ field[1] }}" target="_blank">{{ field[1] }}</a>
+          </div>
+          {% endif %}
+
+          {% if field[0] == "stack-overflow" %}
+          <div class="stack-overflow"><i class="fab fa-stack-overflow"></i>
+            <a href="https://stackoverflow.com/users/{{ field[1] }}" target="_blank">{{ field[1] }}</a>
+          </div>
+          {% endif %}
+
+          {% if field[0] == "codewars" %}
+          <div class="codewars"><i class="fas fa-code"></i>
+            <a href="https://www.codewars.com/users/{{ field[1] }}/completed_solutions" target="_blank">{{ field[1] }}</a>
+          </div>
+          {% endif %}
+
+          {% if field[0] == "goodreads" %}
+          <div class="goodreads-g"><i class="fab fa-goodreads-g"></i>
+            <a href="https://www.goodreads.com/user/show/{{ field[1] }}" target="_blank">{{ field[1] }}</a>
+          </div>
+          {% endif %}
+
+          {% if field[0] == "pdf" %}
+          <div class="pdf"><i class="fas fa-file-pdf"></i>
+            <a href="{{ field[1] }}" target="_blank">Resume PDF</a>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+      <!-- <div class="col-sm-3">
+        <div class="item">{% if sidebar.phone %}
+          <div class="phone"><i class="fas fa-phone"></i>
+            <a href="tel:{{ sidebar.phone }}">{{ sidebar.phone }}</a>
+          </div>
+          {% endif %}</div>
+      </div>
+      <div class="col-sm-3">
+        <div class="item"> {% if sidebar.telegram %}
+          <div class="telegram"><i class="fab fa-telegram"></i>
+            <a href="https://t.me/{{ sidebar.telegram }}" target="_blank">{{ sidebar.telegram }}</a>
+          </div>
+          {% endif %}</div>
+      </div>
+      <div class="col-sm-3">
+        <div class="item">{% if sidebar.website %}
+          <div class="website"><i class="fas fa-globe-americas"></i>
+            <a href="http://{{ sidebar.website }}" target="_blank">{{ sidebar.website }}</a>
+          </div>
+          {% endif %}</div>
+      </div>
+      <div class="col-sm-3">
+        <div class="item">{% if sidebar.linkedin %}
+          <div class="linkedin"><i class="fab fa-linkedin"></i>
+            <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">{{ sidebar.linkedin }}</a>
+          </div>
+          {% endif %}</div>
+      </div>
+      <div class="col-sm-3">
+        <div class="item">{% if sidebar.github %}
+          <div class="github"><i class="fab fa-github"></i>
+            <a href="http://github.com/{{ sidebar.github }}" target="_blank">{{ sidebar.github }}</a>
+          </div>
+          {% endif %}</div>
+      </div>
+      <div class="col-sm-3">
+        <div class="item">Item 3</div>
+      </div>
+      <div class="col-sm-3">
+        <div class="item">Item 3</div>
+      </div>
+      <div class="col-sm-3">
+        <div class="item">Item 3</div>
+      </div>
+      <div class="col-sm-3">
+        <div class="item">Item 3</div>
+      </div> -->
+    </div>    
+  </div>
+</div>
