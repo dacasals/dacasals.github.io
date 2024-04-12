@@ -5,7 +5,6 @@
 
 @charset "utf-8";
 
-// define variable with front matter
 {% if site.data.data.sidebar.position == 'left' %}
 $resume-order: 2;
 $sidebar-order: 1;
