@@ -1,7 +1,0 @@
-github_users:
-  - dacasals
-
-github_repos:
-  - dacasals/sparql-query2vec
-  - dacasals/learnedcardinalities
-  - dacasals/sparql-query-exec-prediction-model
