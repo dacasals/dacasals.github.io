@@ -1,0 +1,21 @@
+---
+layout: default_cv
+---
+
+{% include cv2/career-profile.html %}
+
+{% unless site.data.data.sidebar.education %}
+  {% include cv2/education.html %}
+{% endunless %}
+
+{% include cv2/experiences.html %}
+
+{% include cv2/certifications.html %}
+
+{% include cv2/projects.html %}
+
+{% include cv2/oss-contributions.html %}
+
+{% include cv2/publications.html %}
+
+{% include cv2/skills.html %}
