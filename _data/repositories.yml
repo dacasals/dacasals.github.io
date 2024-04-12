@@ -2,4 +2,6 @@ github_users:
   - dacasals
 
 github_repos:
-  - alshedivat/al-folio
+  - dacasals/sparql-query2vec
+  - dacasals/learnedcardinalities
+  - dacasals/sparql-query-exec-prediction-model
