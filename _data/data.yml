@@ -1,6 +1,7 @@
 #
 # Be aware that even a small syntax error here can lead to failures in output.
 #
+theme_skin: purple
 
 sidebar:
     title: Contact Info

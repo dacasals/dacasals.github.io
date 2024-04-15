@@ -13,5 +13,5 @@ $resume-order: 1;
 $sidebar-order: 2;
 {% endif %}
 
-@import "skins/{{ site.theme_skin | default: 'turquoise' }}"; // skin
+@import "skins/{{ site.data.data.theme_skin }}"; // skin
 @import "default_cv"; // main partials
