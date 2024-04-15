@@ -71,8 +71,8 @@ education:
         university: Universidad Técnica Federico Santa María
         time: 2018 - 03/2021
         details: |
-          He completed the Master program "Magister en Ciencias de la Ingeniería
-          Informática". He has specialized in the area of Machine Learning applied to the
+          I've completed the Master program "Magister en Ciencias de la Ingeniería
+          Informática". I've specialized in the area of Machine Learning applied to the
           prediction of performance in Sparql queries.
             - Worked as a student since 2019 linked to the [IMFD](https://imfd.cl/en/investigador/daniel-casals/).
       - degree: Engineer in Computer Science
@@ -86,7 +86,9 @@ experiences:
         time: 05/2023 - 12/2023
         company: 'Uber, Chile'
         details: |
-          - Improved shopping experience with Recommendation Systems solutions for the Uber New Verticals business.
+          - As part of the Shopping Intelligence team, contributed to improve 
+          the shopping experience with Recommendation Systems solutions
+           for the Uber New Verticals business.
           - Using LLM and deep models to extract product tags and embeddings.
           - Implemented end-to-end pipelines to classify millions of products.
         tags: 
