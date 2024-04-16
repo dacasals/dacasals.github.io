@@ -55,15 +55,26 @@ sidebar:
     #       link:
 
 career-profile:
-    title: Career Profile
+    title: Career Profile.
+    # summary: |
+    # Highly skilled and results-driven Software Engineer with over 4 years
+    #  of experience in the IT sector within multinational companies.
+    #   Proficient in designing, developing, and deploying Machine/Deep Learning 
+    #   model solutions, Web Development Systems, Graph Databases (RDF, SPARQL), 
+    #   and RDBMS. Demonstrated success in data science and a deep commitment to
+    #    leveraging machine learning to deliver innovative solutions. Possesses 
+    #    good communication skills and a proactive mindset, facilitating effective
+    #     collaboration with cross-functional teams to seamlessly transition from
+    #      a prototype data project to a production-ready service, ensuring full
+    #       integration with all specifications and technical requirements.
     summary: |
-      I'm a Machine Learning Engineer with a solid foundation in computer science. 
-      Throughout my career, I've held roles in recognized companies like Uber and 
-      Cornershop By Uber, where I've honed my skills in improving shopping experiences 
+      Machine Learning Engineer with a solid foundation in computer science. 
+      Throughout my career, held roles in recognized companies like Uber and 
+      Cornershop By Uber, where honed my skills in improving shopping experiences 
       through Recommendation Systems, utilizing advanced models like LLM and deep
        learning algorithms. My expertise extends to developing scalable API solutions,
         supporting ML end-to-end pipelines, and enhancing MLOps stack tools. 
-        I excel in integrating and operationalizing machine learning models.
+        Proficency integrating and operationalizing machine learning models.
 education:
     title: Education
     info:
@@ -71,8 +82,8 @@ education:
         university: Universidad Técnica Federico Santa María
         time: 2018 - 03/2021
         details: |
-          I've completed the Master program "Magister en Ciencias de la Ingeniería
-          Informática". I've specialized in the area of Machine Learning applied to the
+          Completed the Master program "Magister en Ciencias de la Ingeniería
+          Informática". Specialized in the area of Machine Learning applied to the
           prediction of performance in Sparql queries.
             - Worked as a student since 2019 linked to the [IMFD](https://imfd.cl/en/investigador/daniel-casals/).
       - degree: Engineer in Computer Science
@@ -103,8 +114,7 @@ experiences:
         time: 03/2022 - 05/2023
         company: 'Cornershop By Uber, Chile'
         details: |
-          - As a Software Engineer/MLE, implementing scalable API solutions to sup-
-          port/serve ML models.
+          - As a Software Engineer/MLE, implemented scalable API solutions to support/serve ML models.
           - Supporting ML End-to-end pipelines and improving our MLOps stack tools.
         tags:
         - Django
@@ -120,8 +130,7 @@ experiences:
         time: 05/2021 - 03/2022
         company: 'Cornershop By Uber, Chile'
         details: |
-          - As a Software Engineer/MLE, implementing scalable API solutions to sup-
-          port/serve ML models.
+          - As a Software Engineer/MLE, implemented scalable API solutions to support/serve ML models.
           - Supporting ML End-to-end pipelines and improving our MLOps stack tools.
         tags:
         - Django
@@ -156,7 +165,7 @@ experiences:
         tags:
         - Architecture
         - Docker
-        - Python3
+        - Python
         - NodeJS
         - Django
         - ExtJS 6.2
@@ -189,7 +198,7 @@ certifications:
           credentialurl: drive.google.com/file/d/1dGhTxW7o7RMWN3yBVdrSpH3FluYoFW8F/view
           credentialname: Grade certificate
           details: |
-            I've completed the following courses as part of the program:
+            Completed the following courses as part of the program:
              - SOFTWARE ARCHITECTURE
              - APPLIED PARALLEL PROGRAMMING
              - SEMANTIC WEB
