@@ -97,11 +97,18 @@ experiences:
         time: 05/2023 - 12/2023
         company: 'Uber, Chile'
         details: |
-          - As part of the Shopping Intelligence team, contributed to improve 
-          the shopping experience with Recommendation Systems solutions
-           for the Uber food delivery business.
-          - Using LLM and deep models to extract product tags and embeddings.
-          - Implemented end-to-end pipelines to classify millions of products.
+          As part of the Shopping Intelligence team, contributed to enhancing the shopping experience within 
+          Uber food delivery business developing and applying machine learning models. 
+          
+          Conducted a feature extraction project
+           utilizing language models to facilitate product labeling, and spearheaded the end-to-end development of ML/DL models.
+          
+            - Developed a model to classify the type of protein in over 50% of restaurant dishes on Uber Eats.
+            - Used prompt engineering on deep learning language models to generate a dataset, with which trained the classifier.
+            - Created pipelines to incrementally predict and provide labels and embeddings for millions of restaurant dishes.
+          
+          Conducted several data analyses required as part of the team job to validate and shape ML projects for new
+           and current features.
         tags: 
           - SQL
           - Spark
@@ -114,8 +121,17 @@ experiences:
         time: 03/2022 - 05/2023
         company: 'Cornershop By Uber, Chile'
         details: |
-          - As a Software Engineer/MLE, implemented scalable API solutions to support/serve ML models.
-          - Supporting ML End-to-end pipelines and improving our MLOps stack tools.
+          Designed, developed, and deployed a large-scale recommender solution to address the Product Replacement problem
+          in the grocery business.
+          - Implemented 3 ML solutions combining heuristics, and deep learning models to 
+          recommend replacements for OutOfStock products, with a significative impact on business KPIs like
+           replacement rate and fulfillment rate.
+          - Conducted effective A/B experiments and data analysis to verify the impact of ML solutions, debugging,
+           and take actions to improve
+          models and recommendations quality.
+          - Implemented enhancements to data pipelines used across various business areas to increase their
+           reliability and fault tolerance,  reducing the need for manual intervention in many model training 
+           and deployments as well as ensuring smoother operations overall.
         tags:
         - Django
         - Sanic
@@ -130,8 +146,33 @@ experiences:
         time: 05/2021 - 03/2022
         company: 'Cornershop By Uber, Chile'
         details: |
-          - As a Software Engineer/MLE, implemented scalable API solutions to support/serve ML models.
-          - Supporting ML End-to-end pipelines and improving our MLOps stack tools.
+          - Implemented a Rest API (using lightweight 
+          framework Sanic) to abstract access to ML models from the Cornershop backend,
+           enhancing the integration process and enabling the availability of
+            recommendation services instead of direct model access.
+            
+            It included:
+
+            - functionalities for logging input/outputs to unlock fine-grade monitoring capabilities.
+            - internal REST routes to manage configuration like active models, balance request rates
+            per model within a service, and choose a model given input features, among others.
+            - A UI interface using React to allow visual configuration.
+            - an OpenAPI 3.0 specification describing API REST services to ensure ease of use and 
+            accessibility for team members involved in model integration.
+          
+          - Integrated many of the recommendation models delivered by the team into the API,
+            demonstrating competence in shaping REST service, fast prototyping, and supervising the implementation
+             process using best practices in ML model integration and API development.
+          - Successfully expedited the integration of machine learning (ML) models into the API, 
+          demonstrating an ability to efficiently coordinate requirements and usage details with platform consumers of the API services
+           to ensure smooth integration processes. During this period I acted as the main point of contact
+            between platform consumers of the API services and Data Scientists of the team.
+          
+          - Implemented data pipelines with Airflow and Glue to transform the API logs into structured data queryable with SQL,
+           necessary to debug models and analyze their impact on the business.
+          - Contribute to improving MLOps stack tools used by the team.
+        # Worked actively shaping both, the Api model integration as well as the integrations with the api in the Cornershop
+        #  platform.
         tags:
         - Django
         - Sanic
